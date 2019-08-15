@@ -1,0 +1,151 @@
+h1,h2,h3,h4,h5,h6{
+	font-weight: 400;
+}
+.explore{
+	width: 1360px;
+	position: relative;
+	margin: 0 auto;
+}
+.exploreFir{
+    color: #333;
+    padding-left: 9px;
+    height: 70px;
+    line-height: 70px;
+    overflow: hidden;
+    border-top: 1px solid #666;
+}
+.exploreFir>a,.exploreFir>span{
+	color: #333;
+	font-size: 13px;
+	padding-left: 6px;
+}
+.exploreFir+div{
+	height: 540px;
+}
+.exploreSec{
+	margin-top: 20px;
+    padding-top: 40px;
+    background: #eee;
+}
+.exploreSecTop{
+	text-align: center;
+	font-size: 0;
+	padding-bottom: 28px;
+}
+.exploreSecTop a{
+	font-size: 14px;
+	margin-right: 56px;
+	color: #666;
+}
+.exploreSecTop a.active{
+	color: #C57D5C;
+}
+.exploreSecTop a:hover{
+	color: #C57D5C;
+}
+.exploreSecBotoom{
+	padding-top: 34px;
+    padding-bottom: 60px;
+    border-top: 1px solid #fff;
+}
+.exploreSecBotoom>ul.exploreUl{
+	overflow: hidden;
+    padding-left: 130px;
+    padding-bottom: 52px;
+    border-bottom: 1px solid #fff;
+    margin-left: -17px;
+}
+.exploreSecBotoom>ul.exploreUl>li{
+	position: relative;
+    background: #fff;
+    float: left;
+    width: 355px;
+    height: 403px;
+    margin-bottom: 32px;
+    margin-left: 17px;
+}
+.exploreUl>li>a{
+	position: absolute;
+    opacity: .01;
+    filter: alpha(opacity=.01);
+    background: #fff;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.liImg{
+	height: 200px;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.liImg>img{
+	position: absolute;
+	width: 100%;
+    height: auto;
+    left: 0px;
+    top: 50%;
+    margin-top: -107px;
+    margin-left: 0px;
+}
+.liWord{
+	position: relative;
+    text-align: center;
+    padding: 26px 0 15px;
+}
+.liWord>h3{
+	font-size: 14px;
+    color: #000;
+    text-overflow: ellipsis;/* ....显示 */
+    overflow: hidden;
+    padding: 0 24px;
+    margin-bottom: 6px;
+}
+.liWord>div{
+	width: 20px;
+    height: 1px;
+    border-bottom: 1px solid #ababab;
+    margin: 13px auto 6px;
+}
+.liWord>p{
+	font-size: 12px;
+    color: #aaa;
+    padding: 0 52px;
+    height: 52px;
+    line-height: 18px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.listBotoom{
+	font-size: 0;
+    padding: 25px 0;
+    text-align: center;
+}
+.listBotoom>span{
+	font-size: 12px;
+    color: #a98f83;
+    margin: 0 20px;
+    padding: 5px 10px;
+    display: inline-block;
+    height: 28px;
+    vertical-align: middle;
+}
+.listBotoom>span i{
+	background: url(../img/explore/icon_heart.png) no-repeat left center;
+	display: inline-block;
+	height: 28px;
+	line-height: 28px;
+	padding-left: 32px;
+	font-style: inherit;
+}
+.listBotoom>span:last-child i{
+	background: url(../img/explore/icon_transmit.png) no-repeat left center;
+}
+.exploreUl li:hover div.liWord p,.exploreUl li:hover div.liWord h3{
+	color: #C79E84;
+}
+
+

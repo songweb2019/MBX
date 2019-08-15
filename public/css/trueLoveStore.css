@@ -1,0 +1,328 @@
+*{
+	margin: 0px;
+	padding: 0px ; 
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+}
+input{
+	outline: none;
+}
+.f1{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.trueLoveStore{
+	margin: 0 auto;
+	width: 1360px;
+}
+.firstLove{
+	font-size: 0px;
+    color: #333;
+    padding-left: 9px;
+    height: 70px;
+    line-height: 70px;
+	border-top: 1px solid #666666;
+}
+.firstLove>a,.firstLove>span{
+	font-size: 13px;
+    color: #333;
+    padding-left: 6px;
+}
+.secLove{
+	position: relative;
+	overflow: hidden;
+	height: 540px;
+}
+.secLove ul.secBaner li{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.secLove ul.secBaner li:last-child{
+	display: none;
+}
+.secClick{
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+    width: 1000px;
+    margin-left: -500px;
+    z-index: 1;
+    text-align: center;
+    font-size: 0;
+}
+.secClick li{
+	display: inline-block;
+	width: 249px;
+    height: 28px;
+    line-height: 30px;
+    border-right: 1px solid #fff;
+    background: #000;
+    opacity: .2;
+}
+.secClick li a{
+	display: block;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+ul.secClick li.active{
+	background: #444;
+    opacity: .7;
+}
+.thirdLove{
+	width: 100%;
+    margin: 50px auto 46px;
+}
+.thirdLove:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.thirdLove>div.floatLeft{
+	float: left;
+    width: 167px;
+    height: 88px;
+    padding-left: 89px;
+    background: url(../img/trueLoveStore/serverIcon.png) no-repeat;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.thirdLove>div.floatLeft>h3{
+	line-height: 16px;
+    margin-top: 22px;
+    font-size: 16px;
+    color: #505050;
+    margin-bottom: 10px;
+	font-weight: 400;
+}
+.thirdLove>div.floatLeft>p{
+	font-size: 13px;
+    line-height: 20px;
+    color: #a98f83;
+}
+.thirdLove>div:first-child{
+	background-position: 25px 24px;
+}
+.thirdLove>div:nth-child(2){
+	background-position: 25px -124px;
+}
+.thirdLove>div:nth-child(4){
+    background-position: 25px -258px;
+}
+.thirdLove>div:last-child{
+	background-position: 25px -383px;
+}
+.floatCenter{
+	background: #b89983;
+    float: left;
+    width: 251px;
+    height: 110px;
+    text-align: center;
+    cursor: pointer;
+}
+.floatCenter:hover{
+	background: #a98f83;
+}
+.floatCenter>h3{
+	font-size: 21px;
+    color: #fff;
+    height: 26px;
+    line-height: 26px;
+    padding-top: 18px;
+	font-weight: 400;
+}
+.floatCenter>div{
+	height: 1px;
+    width: 55px;
+    margin: 8px auto 4px;
+    border-bottom: 1px solid #fff;
+}
+.floatCenter>p{
+	height: 28px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 28px;
+}
+
+.fourLove{
+	padding: 0 108px;
+    background: #f7f7f7;
+    height: 70px;
+    line-height: 70px;
+	font-size: 0px;
+}
+.fourLove:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.fourLoveLeft>a,.fourLoveLeft>span{
+	vertical-align: middle;
+    font-size: 14px;
+    color: #666;
+	font-size: 14px;
+	margin-right: 18px;
+}
+.fourLoveLeft>a{
+	color: #b89983;
+}
+.fourLoveLeft>a>i{
+	color: #999;
+	font-style: normal;
+}
+#citySearch{
+	border: 1px solid #e6e6e6;
+    padding: 5px 0 5px 8px;
+    width: 300px;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+.fourLoveRight{	position: relative;}
+.fourLoveRight>a{
+	height: 22px;
+    line-height: 22px;
+    padding: 2px 20px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    background: #a98f83;
+    border-radius: 3px;
+	font-size: 14px;
+	display: inline-block;
+}
+/* 准备写城市查询 */
+.cityBox{
+	width: 310px;
+	background: #fff;
+    font-family: simsun;
+    box-shadow: 0 2px 2px 1px #e0e0e0;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+}
+.cityTitle{
+	font-size: 0;
+    margin-top: 1px;
+    line-height: 26px;
+}
+.cityTitle>a{
+	display: inline-block;
+	 width: 76px;
+	 height: 26px;
+	 font-size: 14px;
+	 text-align: center;
+	 background-color: #E6E6E6;
+	 color: #C57D5C;
+	 margin-left: 1px;
+ }
+ .cityBox{	display: none;}
+ .cityBody{
+	font-size: 0;
+    padding: 12px 18px;
+    line-height: 22px;
+ }
+ .cityA{
+	 display: none;
+ }
+ .cityA>a{
+	 margin-right: 18px;
+	 font-size: 12px;
+	 color: #666;
+	 display: inline-block;
+	 width: 50px;
+	 height: 22px;
+ }
+ .cityA:first-child{
+	 display: block;
+ }
+.lastLove{
+	margin-top: 44px;
+    background: #f7f7f7;
+    padding: 56px 108px 50px;
+}
+.shopListSame{
+	margin-bottom: 72px;
+    text-align: center;
+}
+.shopTop{
+	background: url(../img/trueLoveStore/titleLine.png) no-repeat center bottom;
+    font-size: 34px;
+    color: #757575;
+    text-align: center;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+}
+.shopListSame>ul{
+	margin-left: -20px;
+}
+.shopListSame>ul:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.shopListSame>ul>li{
+	float: left;
+    width: 368px;
+    height: 510px;
+    margin-left: 20px;
+    text-align: center;
+    background: #fff;
+    margin-bottom: 18px;
+}
+.imgTop{
+	position: relative;
+	margin-bottom: 10px;
+}
+.imgTop:hover{
+	opacity: 0.5;
+	transition: 2s;
+}
+.imgTop>img{
+	height: 221px;
+	width: 341px;
+    border: 13px solid #fff;
+}
+.imgTop>h4{
+	 height: 34px;
+    line-height: 34px;
+    font-size: 20px;
+    position: relative;
+    color: #8b766c;
+	font-weight: 400;
+}   
+.imgBottom>a>i{
+	background: url(../img/trueLoveStore/smallAdress.png) no-repeat;
+	display: inline-block;
+    width: 16px;
+    height: 20px;
+    margin-right: 4px;
+	vertical-align: middle;
+}
+.imgBottom>a{
+	font-size: 14px;
+	color: #757575;
+}
+p.imgP1,p.imgP2{
+	margin: 20px 31px 20px 0px;
+}
+p.imgP1>span,p.imgP2>span{
+	background: url(../img/trueLoveStore/icon_time.png) no-repeat left center;
+	padding-left: 24px;
+	font-size: 14px;
+	color: #757575;
+}
+p.imgP2>span{
+	background: url(../img/trueLoveStore/icon_phone.png) no-repeat left center;
+}
+  
+
+
+

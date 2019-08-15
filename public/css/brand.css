@@ -1,0 +1,356 @@
+*{
+	margin: 0px;
+	padding: 0px ; 
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+}
+input{
+	outline: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+.f1{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.brand{
+	padding-bottom: 60px;
+	width: 1360px;
+    position: relative;
+    margin: 0 auto;
+}
+.brand .w100{
+	margin-bottom: 10px;
+	position: relative;
+}
+.firBrand{
+	background: url(../img/brand/p1.jpg) no-repeat;
+	height: 620px;
+}
+.firBrand>div{
+	position: absolute;
+	top: 236px;
+	right: 0px;
+	width: 512px;
+	text-align: center;
+}
+.firBrand>div>h3{
+	font-size: 28px;
+    color: #4e3b35;
+    margin-bottom: 18px;
+}
+.firBrand>div>p{
+	font-size: 16px;
+    color: #8b766c;
+    line-height: 28px;
+}
+.firBrand>div>div,.secBrand>div>div,.thiBrand>div>div,.fivBrand>div>div,.sevBrandWord>div{
+	width: 40px;
+	height: 2px;
+	margin: 26px auto 0px;
+	border-bottom: 2px solid #898079;
+}
+.secBrand{
+	background: url(../img/brand/p2.jpg) no-repeat;
+	height: 621px;
+}
+.secBrand>div{
+	position: absolute;
+	left: 0px;
+	top: 70px;
+	width: 451px;
+	text-align: center;
+}
+.secBrand>div>p{
+	font-size: 14px;
+    line-height: 26px;
+	color: #626262;
+    margin-top: 40px;
+}
+.thiBrand{
+	background: url(../img/brand/p3.jpg) no-repeat;
+	height: 624px;
+}
+.thiBrand>div{
+	position: absolute;
+	right: 0px;
+	top: 112px;
+	width: 451px;
+	text-align: center;
+}
+.thiBrand>div>p{
+	color: #6f5b52;
+    margin-top: 40px;
+	font-size: 14px;
+    line-height: 26px;
+}
+.fouBrand{
+	background: #f1f1f1;
+    padding-bottom: 68px;
+}
+.fouBrandLeft{
+	position: relative;
+    background: url(../img/brand/zs.gif) no-repeat;
+    width: 526px;
+    height: 727px;
+    font-family: SimSun;
+    margin-top: 80px;
+	margin-left: 86px;
+}
+.fouBrand:before{
+	content: "";
+	display: table;	
+}
+.fouBrand:after{
+	content: "";
+	display: block;	
+	clear: both;
+}
+.fouBrandRight{
+	margin: 94px 84px 0px 0px;
+    text-align: center;
+}
+.fouBrandRight>div>h3{
+	font-size: 28px;
+    color: #666;
+    margin-bottom: 30px;
+}
+.fouBrandRight>div>h4{
+	width: 476px;
+    margin: 0 auto;
+    font-family: SimSun;
+    font-size: 19px;
+    color: #c57d5c;
+    background: url(../img/brand/line.png) repeat-x bottom left;
+    text-align: center;
+    padding-bottom: 13px;
+}
+.fouBrandRight>div>h4>a{
+	    color: #c57d5c;
+}
+.fouBrandRight>div>h4>a:hover{
+	    border-bottom: 1px solid #c57d5c;
+}
+.fouBrandRight>div.bandText>p{
+	font-size: 15px;
+    color: #666;
+    line-height: 32px;
+    margin-top: 30px;
+}
+.inputBrand{
+	position: relative;
+    text-align: left;
+    margin-top: 20px;
+}
+.inputBrand p{
+	line-height: 44px;
+    font-size: 0;
+}
+.inputBrand label,.inputBrand span{
+	vertical-align: middle;
+    font-size: 14px;
+}
+.inputBrand label{
+	color: #888;
+	display: inline-block;
+    width: 84px;
+    text-align: center;
+}
+.inputBrand span{
+	font-size: 12px;
+    display: inline-block;
+    width: 70px;
+    height: 23px;
+    text-align: center;
+    line-height: 23px;
+    margin-right: 10px;
+    border: 1px solid #c2c2c2;
+    color: #c2c2c2;
+    cursor: pointer;
+}
+.inputBrand span.active{
+	border: 1px solid #8b766c;
+    background: #fff7f3;
+    color: #8b766c;
+}
+.inputBrand p input{
+	padding: 7px 0 7px 4px;
+    vertical-align: middle;
+	width: 310px;
+	outline: 0;
+    border: 1px solid #afafb0;
+}
+.inputBrand p+a{
+	color: #d7d7d7;
+    font-size: 12px;
+    margin-left: 340px;
+    line-height: 18px;
+}
+.queryBtn{
+	margin-top: 12px;
+    text-align: center;
+}
+.queryBtn a{
+	font-size: 14px;
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    width: 198px;
+    border: 1px solid #8b766c;
+    color: #8b766c;
+    text-align: center;;
+}
+.fivBrand{
+	height: 722px;
+	background: url(../img/brand/p4.jpg) no-repeat;
+	text-align: center;
+}
+.fivBrand>div{
+	position: absolute;
+    width: 451px;
+    left: 0;
+    top: 140px;
+}
+.fivBrand>div>h3{
+	font-size: 24px;
+    color: #fefaf9;
+    margin-top: 40px;
+}
+.fivBrand>div>p{
+	color: #bdbbba;
+    margin-top: 20px;
+	font-size: 14px;
+    line-height: 26px;
+}
+.fivBrand>div>div{
+	border-color: #bbb5b1;
+}
+.sixBrand div:first-child{
+	text-align: right;
+    height: 38px;
+    line-height: 38px;
+}
+.sixBrand div:first-child a{
+	font-size: 14px;
+    color: #000;
+}
+.brandPlay{
+	position: relative;
+    width: 1360px;
+    height: 661px;
+}
+.brandPlay li .brandWord{
+	position: absolute;
+    width: 418px;
+    right: 212px;
+    top: 272px;
+    z-index: 4;
+	text-align: center;
+}
+.brandPlay li .brandWord>h3{
+	font-size: 28px;
+	color: #b49777;
+}
+.brandPlay li .brandWord>p{
+	font-size: 16px;
+	color: #352a24;
+	line-height: 26px;
+	margin-top: 18px;
+}
+.brandLine{
+	border-bottom: 2px solid #898079;
+    width: 40px;
+    height: 2px;
+    margin: 26px auto 0;
+}
+.brandPlay li{
+	display: none;
+}
+.brand_xd{
+	position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    bottom: 32px;
+    z-index: 5;
+}
+.brand_xd li{
+	display: inline-block;
+    background: url(../img/brand/dian.png) no-repeat;
+    width: 9px;
+    height: 9px;
+    margin: 0 10px;
+}	
+.brand_xd li.active{
+	background-position: 0 -9px; 
+ }  
+
+.sevBrand{
+	height: 722px;
+}
+.sevBrandWord{
+	width: 451px;
+    height: 572px;
+    padding-top: 150px;
+    background: #d5ccc3;
+	text-align: center;
+}
+.sevBrandWord>h3{
+	font-size: 27px;
+    color: #4e3b35;
+    margin-top: 40px;
+}
+.sevBrandWord>p{
+	color: #8b766c;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
+}
+.sevBrandWord>a{
+	display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #000;
+}
+.sevBrandUl{
+	position: relative;
+}
+.BrandUl li{
+	display: none;
+}
+.sevBrand:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.eigBrand{
+	height: 765px;
+	background: url(../img/brand/p6.jpg) no-repeat;
+}
+.eigBrand>div{
+	position: absolute;
+    background: #847a71;
+    font-size: 30px;
+    color: #fff;
+    width: 1122px;
+    height: 252px;
+    line-height: 252px;
+    text-align: center;
+    left: 118px;
+    bottom: 0;
+}
+
+.eigBrand>div>a{
+	padding: 18px 32px;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+

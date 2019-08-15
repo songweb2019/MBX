@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Mu Bei Xi(MBX)戒指|珠宝</title>
+    <!-- <link rel="shortcut icon" href="img/logo.png" />　 -->
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="css/user_login.css">
+    <script src="js/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/user_login_jquery.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+    <div class="mbx">
+        <div class="nav">
+            <div class="mbx_logo">
+                <a href="mbx_main.html"><img src="img/logo.png" alt="" id="logo"></a>
+            </div>
+            <div class="mbx_member">
+                <div class="mbx_logoRight">
+                    <div class="mbx_member_left">
+                        <a href="#" class="reg">登录 / 注册</a>
+                    </div>
+                    <div class="mbx_member_left">
+                        <i>
+							<img src="img/phone.png" alt="" > 400 01 12345
+						</i>
+                    </div>
+                    <div class="mbx_member_left">
+                        <a href="#" class="help-right">
+							帮助中心
+							<span></span>
+						</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mbx_center">
+            <div class="mbx_login">
+
+                <h3>注册/登录</h3>
+                <div class="loginUser">
+                    <div id="login_msg"></div>
+                    <div class="uName">
+                        <input type="text" id='uname' name='uname' autocomplete="off" placeholder="请输入你的用户名">
+                    </div>
+                    <div class="uPwd">
+                        <input type="password" id='upwd' name='upwd' placeholder="请输入你的密码">
+                    </div>
+
+                    <div class="actionPwdDiv">
+                        <p class="actionPwd">
+                            <a href="#">忘记密码?</a>
+                            <input type="checkbox" name='' id='rember_pwd'>
+                            <label for="rember_pwd">记住密码</label>
+                        </p>
+                        <p class="actionSame">
+                            还没有账户<a href="#" id="regS">快来注册吧！</a>
+                        </p>
+                    </div>
+                    <div class="login">
+                        <button id="userLogin">登录</button>
+                    </div>
+                </div>
+
+                <!-- 注册 -->
+                <div class="regUser" style="display: none;">
+                    <div id="login_msg2"></div>
+                    <div class="uName">
+                        <input type="text" id='regname' name='regname' autocomplete="off" placeholder="请输入注册用户名">
+                    </div>
+                    <div class="uPwd">
+                        <input type="password" id='regpwd' name='regpwd' placeholder="请输入注册密码">
+                    </div>
+
+                    <div class="actionPwdDiv" id="goLogin">
+                        <p class="actionSame">
+                            已有账户<a href="#" id="loginS">快来登陆吧！</a>
+                        </p>
+                    </div>
+                    <div class="login">
+                        <button id="userReg">注册</button>
+                    </div>
+                </div>
+
+                <div class="mbx_other">
+                    <h4>第三方账户登录</h4>
+                    <a href="javascript:;" class="qq1"></a>
+                    <a href="javascript:;" class='wx1'></a>
+                    <a href="javascript:;" class="wb1"></a>
+                    <a href="javascript:;" class="zfb1"></a>
+                </div>
+            </div>
+
+
+            <div class="loginBg">
+                <img src="img/login_bg.jpg">
+            </div>
+
+        </div>
+
+        <footer></footer>
+    </div>
+</body>
+
+</html>
